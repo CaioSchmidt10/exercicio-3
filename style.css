@@ -65,6 +65,15 @@ img{
     height: 13.75rem;
 }
 
+#conteudo-principal::after{
+    content: "";
+    position: relative;
+    left: 480px;
+    bottom: 525px;
+    width: 40px;
+    height: 5px;
+    background-color: #ee2211;
+}
 #vermais{
     background-color: #ee2211;
     color: white;
@@ -106,7 +115,7 @@ img{
 #eletrica img{
     position: absolute;
     left: 30px;
-    top: -3px;
+    top: -2px;
     height: 20px;
     width: 20px;
 }
@@ -122,7 +131,7 @@ img{
 #rastreador img{
     position: absolute;
     left: 30px;
-    top: 147px;
+    top: -77px;
     height: 20px;
     width: 20px;
 }
